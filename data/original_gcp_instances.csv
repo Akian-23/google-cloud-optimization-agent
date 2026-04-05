@@ -1,0 +1,29 @@
+machine_family,series,machine_type,vCPUs,RAM_GiB,disk_type,region,preemptible,monthly_cost
+Compute-optimized,C2,c2-standard-4,4,16,Balanced persistent disk,us-central1,FALSE,152.43
+Compute-optimized,C2,c2-standard-4,4,16,Standard persistent disk,us-central1,FALSE,152.43
+Compute-optimized,C2,c2-standard-4,4,16,SSD persistent disk,us-central1,FALSE,154.13
+Compute-optimized,C2,c2-standard-8,8,32,Balanced persistent disk,us-east1,FALSE,305.86
+Compute-optimized,C2,c2-standard-8,8,32,SSD persistent disk,us-east1,FALSE,306.56
+Compute-optimized,C2D,c2d-standard-2,2,8,Balanced persistent disk,us-central1,FALSE,67.28
+Compute-optimized,C2D,c2d-standard-2,2,8,Standard persistent disk,us-central1,FALSE,66.28
+Compute-optimized,C2D,c2d-standard-4,4,16,Balanced persistent disk,us-east1,FALSE,133.57
+Compute-optimized,C2D,c2d-standard-4,4,16,SSD persistent disk,us-east1,FALSE,134.27
+Compute-optimized,H3,h3-standard-88,88,352,Balanced persistent disk,us-central1,FALSE,3595.23
+Compute-optimized,H3,h3-standard-88,88,352,Balanced persistent disk,northamerica-south1,FALSE,3918.8
+General-purpose,N2,n2-standard-4,4,16,Balanced persistent disk,us-central1,FALSE,142.79
+General-purpose,N2,n2-standard-4,4,16,Standard persistent disk,us-central1,FALSE,141.79
+General-purpose,N4,n4-standard-4,4,16,Hyperdisk Balanced,us-central1,FALSE,133.22
+General-purpose,N4,n4-standard-4,4,16,Hyperdisk Balanced,us-central1,TRUE,49.69
+General-purpose,N4,n4-standard-4,4,16,Hyperdisk Balanced,us-east1,FALSE,133.32
+Compute-optimized,C4,c4-standard-4,4,15,Hyperdisk Balanced,us-central1,TRUE,72.92
+Compute-optimized,C4,c4-standard-4,4,15,Hyperdisk Balanced,us-central1,FALSE,145.1
+Memory-optimized,M2,m2-ultramem-416,416,11776,Standard persistent disk,us-central1,FALSE,61483.43
+Memory-optimized,M2,m2-ultramem-416,416,11776,Hyperdisk Balanced,us-central1,FALSE,61484.23
+Memory-optimized,M2,m2-megamem-416,416,5888,Standard persistent disk,us-east4,FALSE,41609.89
+Memory-optimized,M2,m2-ultramem-208,208,5888,Hyperdisk Balanced,us-central1,FALSE,30742.51
+Memory-optimized,M2,m2-ultramem-208,208,5888,Standard persistent disk,us-central1,FALSE,30741.71
+Memory-optimized,M1,m1-megamem-96,96,1433.6,Hyperdisk Balanced,us-central1,FALSE,7776.88
+Memory-optimized,M1,m1-megamem-96,96,1433.6,Hyperdisk Balanced,us-central1,TRUE,1374.36
+Memory-optimized,M1,m1-megamem-96,96,1433.6,Hyperdisk Balanced,us-central1,TRUE,1374.36
+General-purpose,E2,e2-standard-2,2,8,Balanced persistent disk,us-central1,TRUE,24.65
+General-purpose,E2,e2-standard-2,2,8,Balanced persistent disk,us-central1,FALSE,49.92

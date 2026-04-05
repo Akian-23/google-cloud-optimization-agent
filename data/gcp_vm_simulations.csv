@@ -1,0 +1,53 @@
+machine_family,machine_type,number_of_instances,vCPUs,RAM_GiB,disk_type,region,preemptible,monthly_cost,latency_ms,sla_compliance_pct
+Compute-optimized,c2-standard-4,3,4,16,Balanced persistent disk,us-central1,FALSE,180,95,99.5
+Compute-optimized,c2-standard-8,2,8,32,SSD persistent disk,us-east1,TRUE,220,88,97
+Compute-optimized,c2d-standard-2,5,2,8,Balanced persistent disk,northamerica-south1,FALSE,150,102,99.2
+Compute-optimized,c2d-standard-4,1,4,16,Hyperdisk Balanced,us-east4,TRUE,120,98,95.8
+Compute-optimized,h3-standard-88,2,88,352,SSD persistent disk,us-central1,FALSE,4500,45,99.9
+General-purpose,n2-standard-4,4,4,16,Balanced persistent disk,us-east1,FALSE,200,90,99.3
+General-purpose,n4-standard-4,3,4,16,SSD persistent disk,northamerica-south1,TRUE,240,85,96.5
+Compute-optimized,c4-standard-4,2,4,16,Hyperdisk Balanced,us-east4,FALSE,180,92,99
+Memory-optimized,m2-ultramem-416,1,416,1104,SSD persistent disk,us-central1,FALSE,15000,30,99.8
+Memory-optimized,m2-megamem-416,2,416,1024,Balanced persistent disk,us-east1,TRUE,15500,35,96.9
+Memory-optimized,m2-ultramem-208,3,208,552,Hyperdisk Balanced,northamerica-south1,FALSE,9000,38,99.6
+Memory-optimized,m1-megamem-96,2,96,624,SSD persistent disk,us-east4,FALSE,4800,42,99.5
+General-purpose,e2-standard-2,5,2,8,Balanced persistent disk,us-central1,TRUE,140,105,97.5
+Compute-optimized,c2-standard-4,1,4,16,SSD persistent disk,us-east1,FALSE,65,102,99.6
+Compute-optimized,c2-standard-8,3,8,32,Balanced persistent disk,northamerica-south1,FALSE,330,87,99.4
+Compute-optimized,c2d-standard-2,2,2,8,Hyperdisk Balanced,us-east4,TRUE,90,108,95.2
+Compute-optimized,c2d-standard-4,4,4,16,SSD persistent disk,us-central1,FALSE,240,93,99.1
+Compute-optimized,h3-standard-88,1,88,352,Balanced persistent disk,us-east1,TRUE,2200,50,97.2
+General-purpose,n2-standard-4,2,4,16,Hyperdisk Balanced,northamerica-south1,FALSE,110,98,99.5
+General-purpose,n4-standard-4,4,4,16,Balanced persistent disk,us-east4,TRUE,280,86,96.7
+Compute-optimized,c4-standard-4,3,4,16,SSD persistent disk,us-central1,FALSE,270,91,99.2
+Memory-optimized,m2-ultramem-416,2,416,1104,Balanced persistent disk,us-east1,TRUE,30000,33,97.1
+Memory-optimized,m2-megamem-416,1,416,1024,SSD persistent disk,northamerica-south1,FALSE,7600,37,99.7
+Memory-optimized,m2-ultramem-208,2,208,552,Balanced persistent disk,us-east4,TRUE,6100,40,96.8
+Memory-optimized,m1-megamem-96,3,96,624,Hyperdisk Balanced,us-central1,FALSE,7200,41,99.4
+General-purpose,e2-standard-2,1,2,8,SSD persistent disk,us-east1,FALSE,30,110,99.2
+Compute-optimized,c2-standard-4,5,4,16,Balanced persistent disk,northamerica-south1,TRUE,300,84,95.5
+Compute-optimized,c2-standard-8,1,8,32,Hyperdisk Balanced,us-east4,FALSE,110,92,99.3
+Compute-optimized,c2d-standard-2,4,2,8,SSD persistent disk,us-central1,FALSE,180,100,99.1
+Compute-optimized,c2d-standard-4,2,4,16,Balanced persistent disk,us-east1,TRUE,150,96,96.2
+Compute-optimized,h3-standard-88,3,88,352,SSD persistent disk,northamerica-south1,FALSE,6700,44,99.8
+General-purpose,n2-standard-4,3,4,16,Hyperdisk Balanced,us-east4,TRUE,165,97,96.6
+General-purpose,n4-standard-4,2,4,16,Balanced persistent disk,us-central1,FALSE,140,89,99.4
+Compute-optimized,c4-standard-4,1,4,16,SSD persistent disk,us-east1,TRUE,90,95,95.9
+Memory-optimized,m2-ultramem-416,3,416,1104,Balanced persistent disk,northamerica-south1,FALSE,45000,28,99.9
+Memory-optimized,m2-megamem-416,2,416,1024,SSD persistent disk,us-east4,TRUE,15500,36,97
+Memory-optimized,m2-ultramem-208,1,208,552,Hyperdisk Balanced,us-central1,FALSE,3000,41,99.5
+Memory-optimized,m1-megamem-96,2,96,624,SSD persistent disk,us-east1,TRUE,4800,43,96.7
+General-purpose,e2-standard-2,4,2,8,Balanced persistent disk,northamerica-south1,FALSE,110,100,99.3
+Compute-optimized,c2-standard-4,2,4,16,Hyperdisk Balanced,us-east4,TRUE,120,97,96
+Compute-optimized,c2-standard-8,5,8,32,Balanced persistent disk,us-central1,FALSE,550,85,99.6
+Compute-optimized,c2d-standard-2,1,2,8,SSD persistent disk,us-east1,TRUE,45,107,95.4
+Compute-optimized,c2d-standard-4,3,4,16,Hyperdisk Balanced,northamerica-south1,FALSE,180,92,99.2
+Compute-optimized,h3-standard-88,2,88,352,Balanced persistent disk,us-east4,TRUE,4500,46,97.5
+General-purpose,n2-standard-4,1,4,16,SSD persistent disk,us-central1,FALSE,55,102,99.5
+General-purpose,n4-standard-4,5,4,16,Hyperdisk Balanced,us-east1,TRUE,350,87,96.4
+Compute-optimized,c4-standard-4,2,4,16,Balanced persistent disk,northamerica-south1,FALSE,180,93,99.1
+Memory-optimized,m2-ultramem-416,1,416,1104,SSD persistent disk,us-east4,FALSE,15000,32,99.8
+Memory-optimized,m2-megamem-416,3,416,1024,Balanced persistent disk,us-central1,TRUE,23000,35,96.9
+Memory-optimized,m2-ultramem-208,2,208,552,SSD persistent disk,us-east1,FALSE,6100,39,99.6
+Memory-optimized,m1-megamem-96,1,96,624,Hyperdisk Balanced,northamerica-south1,TRUE,2400,44,96.5
+General-purpose,e2-standard-2,3,2,8,SSD persistent disk,us-east4,FALSE,90,103,99.3
