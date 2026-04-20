@@ -41,3 +41,70 @@ This optimization engine analyzes 52 possible combinations of Google Cloud VM in
 
 ### Next Steps
 Part 2 will introduce a constraint-aware decision agent capable of selecting optimal infrastructure configurations from the Pareto frontier based on organizational constraints such as budget limits, performance requirements, or service-level targets.
+
+
+
+# Part 2: Constraint-Aware Decision Agent (Complete ✓)
+
+## What the System Does
+
+The decision agent extends the optimization engine by:
+
+- Filtering infeasible infrastructure options using business constraints
+- Applying rule-based decision logic based on business context
+- Generating explainable recommendations for decision-makers
+
+## Key Findings
+
+- Applied business constraints to Pareto-optimal solutions
+- Reduced solution space to feasible, real-world options
+- Agent adapted decisions across multiple business scenarios:
+  - Budget cuts
+  - High traffic / demand surge
+  - Normal operations
+
+- Final recommendation balances:
+  - Cost efficiency
+  - System performance (latency)
+  - Business urgency
+
+## Agent Features
+
+- **Input:** Business scenario (priority, urgency, competitive pressure)
+- **Output:** Recommended machine type + region
+- **Explainability:** Step-by-step reasoning
+- **Scenario Testing:** Behavior validated across multiple conditions
+
+## Important Insight
+
+Monthly cost and latency are on different scales:
+
+- Cost values are much larger (hundreds–thousands)
+- Latency values are smaller (tens–hundreds ms)
+
+As a result:
+- visualizations may appear cost-dominated
+- normalization is required for fair comparison
+
+This reflects unit differences, not model bias.
+
+## Running the Agent
+
+1. Run Phase 1 (optimization engine)
+2. Execute all Phase 2 cells in `optimization_engine.ipynb`
+3. Modify scenarios in Part 2.4 to test behavior
+4. View final recommendation in Part 2.6
+
+## Technologies Used
+
+- Python (pandas, numpy, matplotlib)
+- Jupyter Notebook
+- Multi-objective optimization
+- Rule-based decision system
+
+
+## Next Steps
+
+- Record executive presentation video (Unit 14)
+- Discuss limitations and improvements
+- Present complete system as portfolio piece
